@@ -1,0 +1,24 @@
+.why_we {
+  width: 300px;
+  margin: 80px auto 0;
+  p {
+    text-align: center;
+    font-style: italic;
+  }
+}
+
+.question {
+  color: var(--third_color);
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+
+.answer {
+  color: var(--main_inverse_color);
+  font-size: 24px;
+  font-weight: 900;
+  .highlight {
+    color: var(--main_color);
+  }
+}
