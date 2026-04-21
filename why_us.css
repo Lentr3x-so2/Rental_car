@@ -1,0 +1,56 @@
+.why_us {
+  width: 100%;
+}
+.main_question {
+  width: fit-content;
+  background-color: var(--second_bg_color);
+  color: var(--second_text_color);
+  padding: 12px 40px;
+  margin: 0 auto;
+  border-radius: 50px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+}
+.main_answer {
+  width: fit-content;
+  font-size: 48px;
+  font-style: italic;
+  margin: 0 auto;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.accent {
+  color: var(--main_color);
+}
+.card_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+}
+.card_list_img {
+  border-radius: 200px;
+}
+.card_list_icon {
+  position: absolute;
+  top: 240px;
+  left: 36%;
+  height: 90px;
+  width: 90px;
+  border-radius: 100px;
+  padding: 20px 20px;
+  background-color: var(--main_color);
+}
+.card_list_text {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 70px;
+  margin-bottom: 200px;
+  padding: 0 25px;
+}
+
+.why_us_car {
+  position: absolute;
+}

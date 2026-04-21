@@ -1,0 +1,98 @@
+.hero {
+  background-image: url(/Images/Hero/background_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  margin-bottom: 256px;
+  padding-top: 270px;
+}
+
+.hero_text_information_1 {
+  font-size: 24px;
+  color: #8e8e8e;
+  font-style: italic;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.hero_text_information_2 {
+  font-size: 72px;
+  color: var(--base_color);
+  font-style: italic;
+  font-weight: 700;
+}
+
+.hero_text_information_3 {
+  font-size: 72px;
+  color: var(--main_color);
+  font-style: italic;
+  font-weight: 900;
+}
+
+.hero_underline {
+  position: absolute;
+  top: 195px;
+  left: 105px;
+}
+
+.hero_text_logo {
+  font-size: 160px;
+  color: #8e8e8e19;
+  font-style: italic;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: -35px;
+  right: -80px;
+}
+
+.hero_text_logo p {
+  height: 130px;
+}
+
+.text_car {
+  padding-left: 100px;
+}
+
+.offer_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  width: 360px;
+}
+
+.Best_Offer_btn {
+  background-color: var(--main_color);
+  color: #0c0c0c;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  padding: 15px 35px;
+  border-radius: 30px;
+}
+
+.How_it_works {
+  font-size: 18px;
+  font-style: italic;
+  color: #8e8e8e;
+}
+
+.wave {
+  margin-top: -70px;
+  height: 360px;
+}
+
+.hero_car {
+  position: absolute;
+  right: 0;
+  bottom: -240px;
+}
+
+.hero_arrow {
+  position: absolute;
+  top: 550px;
+}
