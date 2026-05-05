@@ -9,7 +9,7 @@
   padding-top: 270px;
 }
 
-.hero_text_information_1 {
+.hero_text_1 {
   font-size: 24px;
   color: #8e8e8e;
   font-style: italic;
@@ -17,14 +17,14 @@
   padding-bottom: 20px;
 }
 
-.hero_text_information_2 {
+.hero_text_2 {
   font-size: 72px;
   color: var(--base_color);
   font-style: italic;
   font-weight: 700;
 }
 
-.hero_text_information_3 {
+.hero_text_3 {
   font-size: 72px;
   color: var(--main_color);
   font-style: italic;
@@ -37,7 +37,7 @@
   left: 105px;
 }
 
-.hero_text_logo {
+.hero_logo {
   font-size: 160px;
   color: #8e8e8e19;
   font-style: italic;
@@ -49,11 +49,11 @@
   right: -80px;
 }
 
-.hero_text_logo p {
+.hero_logo p {
   height: 130px;
 }
 
-.text_car {
+.hero_text_logo {
   padding-left: 100px;
 }
 
@@ -81,15 +81,14 @@
   color: #8e8e8e;
 }
 
-.wave {
-  margin-top: -70px;
-  height: 360px;
+.hero_wave {
+  height: 300px;
 }
 
 .hero_car {
   position: absolute;
   right: 0;
-  bottom: -240px;
+  bottom: -260px;
 }
 
 .hero_arrow {

@@ -1,7 +1,7 @@
 .why_us {
   width: 100%;
 }
-.main_question {
+.why_us_overline {
   width: fit-content;
   background-color: var(--second_bg_color);
   color: var(--second_text_color);
@@ -12,16 +12,18 @@
   font-style: italic;
   font-weight: 500;
 }
-.main_answer {
+.why_us_title {
   width: fit-content;
   font-size: 48px;
   font-style: italic;
   margin: 0 auto;
   font-weight: 700;
   margin-top: 20px;
+  margin-bottom: 80px;
 }
-.accent {
+.accent_why_us_title {
   color: var(--main_color);
+  border-bottom: 4px solid;
 }
 .card_list {
   display: flex;
@@ -50,7 +52,11 @@
   margin-bottom: 200px;
   padding: 0 25px;
 }
-
 .why_us_car {
   position: absolute;
+  z-index: 11;
+  bottom: -300px;
+}
+.why_us_wave {
+  height: 200px;
 }

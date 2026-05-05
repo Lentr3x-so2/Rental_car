@@ -1,0 +1,73 @@
+.stats {
+  width: 100%;
+  background-color: var(--main_bg_color);
+  padding-top: 230px;
+  position: relative;
+}
+.stats_overline {
+  color: #f1f1f1a1;
+  background-color: #221b01;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  padding: 12px 40px;
+  width: fit-content;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+.stats_title {
+  padding-top: 20px;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--base_color);
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.accent_stats_title {
+  color: var(--main_color);
+  border-bottom: 4px solid;
+}
+.stats_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 370px;
+}
+.stats_block {
+  background-color: #221b01;
+  border-radius: 10px;
+  position: relative;
+}
+.stat_number {
+  color: var(--main_color);
+  font-size: 90px;
+  font-weight: 500;
+  font-style: italic;
+  padding: 35px 75px 50px 85px;
+}
+.stat_desc {
+  background-color: var(--base_color);
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+  width: fit-content;
+  padding: 10px 40px;
+  border-radius: 99px;
+  position: absolute;
+  bottom: -23px;
+  left: 70px;
+}
+.stats_car {
+  position: absolute;
+  width: 650px;
+  right: 0;
+  top: 640px;
+  z-index: 10;
+}
+.stats_wave {
+  position: absolute;
+  height: 200px;
+}

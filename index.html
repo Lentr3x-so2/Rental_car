@@ -14,7 +14,7 @@
     <header>
       <div class="container">
         <div class="header_panel">
-          <div class="logo">
+          <div class="header_logo">
             <a href=""
               ><img
                 src="/Images/Header/car-rental-logo.png"
@@ -43,17 +43,17 @@
       <section class="hero">
         <div class="container">
           <div class="hero_text">
-            <p class="hero_text_information_1">The best way of renting</p>
-            <p class="hero_text_information_2">Best cars to make</p>
-            <p class="hero_text_information_3">Your drive easy</p>
+            <p class="hero_text_1">The best way of renting</p>
+            <p class="hero_text_2">Best cars to make</p>
+            <p class="hero_text_3">Your drive easy</p>
             <img
               class="hero_underline"
               src="/Images/Hero/underline.png"
               alt=""
             />
           </div>
-          <div class="hero_text_logo">
-            <p class="text_car">CAR</p>
+          <div class="hero_logo">
+            <p class="hero_text_logo">CAR</p>
             <p>RENTAL</p>
           </div>
           <div class="offer_btn">
@@ -76,12 +76,16 @@
           />
         </div>
         <svg
-          class="wave"
+          class="hero_wave"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
           width="100%"
           viewBox="0 0 1600 406"
         >
+          <path
+            style="fill: #ffca08"
+            d="M1608.03,417H-1.709L-3.493,267.327c76.974,52.083,173.369,106.4,262.948,114.816,82.7,7.772,175.138-15.857,175.138-15.857,296.27-61.5,450.55-323.851,772.167-357.194,146.02-12.5,299.07,11.613,401.05,33.813Z"
+          ></path>
           <path
             style="fill: #ffca08"
             d="M-2.25,405.5H1607.5l1-248.5S1498.97,67.09,1199,82.5C952.453,84.455,717.723,320.6,424,369c0,0-91,17-172,11-87.435-6.475-177.172-39.147-255.516-77.726Z"
@@ -94,9 +98,11 @@
       </section>
       <section class="why_us">
         <div class="container">
-          <p class="main_question">Why should you book with us?</p>
-          <p class="main_answer">
-            We compare car rental prices,<span class="accent"> you save!</span>
+          <p class="why_us_overline">Why should you book with us?</p>
+          <p class="why_us_title">
+            We compare car rental prices,<span class="accent_why_us_title">
+              you save!</span
+            >
           </p>
           <ul class="card_list">
             <li>
@@ -157,15 +163,20 @@
           />
         </div>
         <svg
-          class="wave"
+          class="why_us_wave"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
+          style="display: block"
           width="100%"
           viewBox="0 0 1600 406"
         >
           <path
             style="fill: #ffca08"
             d="M-2.25,405.5H1607.5l1-248.5S1498.97,67.09,1199,82.5C952.453,84.455,717.723,320.6,424,369c0,0-91,17-172,11-87.435-6.475-177.172-39.147-255.516-77.726Z"
+          ></path>
+          <path
+            style="fill: #ffca08"
+            d="M1608.03,417H-1.709L-3.493,267.327c76.974,52.083,173.369,106.4,262.948,114.816,82.7,7.772,175.138-15.857,175.138-15.857,296.27-61.5,450.55-323.851,772.167-357.194,146.02-12.5,299.07,11.613,401.05,33.813Z"
           ></path>
           <path
             style="fill: #1c1601"
@@ -177,12 +188,12 @@
         <div class="container">
           <div class="offer_block">
             <div class="offer_text">
-              <p class="offer_question">Why are our prices lower?</p>
-              <p class="offer_car_rental">
+              <p class="offer_overline">Why are our prices lower?</p>
+              <p class="offer_title">
                 Find the perfect rental car for
-                <span class="accent">your trip</span>
+                <span class="accent_offer_title">your trip</span>
               </p>
-              <p class="company_information">
+              <p class="offer_information">
                 Car Rental is a leader in online car rental reservations; we
                 compare car rental deals from many companies so that you can
                 choose which is best for your trip.
@@ -191,7 +202,31 @@
             </div>
             <div class="offer_list">
               <div class="offer_list_left">
-                <h3>Weekly Pro Offer</h3>
+                <p class="offer_list_title">Weekly Pro Offer</p>
+
+                <svg
+                  class="svg_offer_list"
+                  preserveAspectRatio="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="318px"
+                  viewBox="0 0 1600 165"
+                >
+                  <g transform="scale(1 -1) translate(0 -165)">
+                    <path
+                      style="fill: transparent"
+                      d="M-3,0S398.468,103.5,799.951,103.5C1201.47,103.5,1603,0,1603,0V167H-3V0Z"
+                    ></path>
+                    <path
+                      style="fill: transparent"
+                      d="M-3,25S398.468,128.5,799.951,128.5C1201.47,128.5,1603,25,1603,25V168H-3V25Z"
+                    ></path>
+                    <path
+                      style="fill: #ffca08"
+                      d="M-3,49S398.468,152.5,799.951,152.5C1201.47,152.5,1603,49,1603,49V167.5H-3V49Z"
+                    ></path>
+                  </g>
+                </svg>
+
                 <ul>
                   <li>1+ Day free car</li>
                   <li>1+ Day free driver</li>
@@ -204,27 +239,23 @@
                 </ul>
               </div>
               <div class="offer_list_right">
-                <h3>Daily Car Rental</h3>
+                <p class="offer_list_title">Daily Car Rental</p>
+
                 <svg
+                  class="svg_offer_list"
                   preserveAspectRatio="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="100%"
+                  width="278px"
                   viewBox="0 0 1600 165"
                 >
                   <g transform="scale(1 -1) translate(0 -165)">
-                  <path
-                    style="fill: transparent"
-                    d="M-3,0S398.468,103.5,799.951,103.5C1201.47,103.5,1603,0,1603,0V167H-3V0Z"
-                  ></path>
-                  <path
-                    style="fill: transparent"
-                    d="M-3,25S398.468,128.5,799.951,128.5C1201.47,128.5,1603,25,1603,25V168H-3V25Z"
-                  ></path>
-                  <path
-                    style="fill: #ffca08"
-                    d="M-3,49S398.468,152.5,799.951,152.5C1201.47,152.5,1603,49,1603,49V167.5H-3V49Z"
-                  ></path>
+                    <path
+                      style="fill: #ffffff"
+                      d="M-3,49S398.468,152.5,799.951,152.5C1201.47,152.5,1603,49,1603,49V167.5H-3V49Z"
+                    ></path>
+                  </g>
                 </svg>
+
                 <ul>
                   <li>No free offers</li>
                   <li>No free driver</li>
@@ -234,6 +265,186 @@
                   <li>Brand new vehicles</li>
                   <li>Free cancellation</li>
                 </ul>
+              </div>
+            </div>
+          </div>
+          <img
+            class="offer_car"
+            src="/Images/Offer/car.png"
+            alt=""
+            width="660px"
+            height="312px"
+          />
+        </div>
+        <svg
+          class="offer_wave"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+          width="100%"
+          viewBox="0 0 1600 406"
+        >
+          <g transform="scale(-1 -1) translate(-1600 -406)">
+            <path
+              style="fill: #ffca08"
+              d="M1608.03,417H-1.709L-3.493,267.327c76.974,52.083,173.369,106.4,262.948,114.816,82.7,7.772,175.138-15.857,175.138-15.857,296.27-61.5,450.55-323.851,772.167-357.194,146.02-12.5,299.07,11.613,401.05,33.813Z"
+            ></path>
+            <path
+              style="fill: #ffca08"
+              d="M-2.25,405.5H1607.5l1-248.5S1498.97,67.09,1199,82.5C952.453,84.455,717.723,320.6,424,369c0,0-91,17-172,11-87.435-6.475-177.172-39.147-255.516-77.726Z"
+            ></path>
+            <path
+              style="fill: #1c1601"
+              d="M-5.143,340.337C87.619,364.359,200.042,380.486,309,381c298.183,1.4,631.464-245.093,878-242,244.99,3.074,420.5,129,420.5,129V410H-4.75Z"
+            ></path>
+          </g>
+        </svg>
+      </section>
+      <section class="cars_slider">
+        <div class="container">
+          <p class="cars_slider_overline">Car rental and much more</p>
+          <p class="cars_slider_title">
+            CarRental provides more than just a traditional
+            <span class="accent_cars_slider_title">car rental</span>
+          </p>
+          <ul class="car_list">
+            <li class="car_list_block_main">
+              <img
+                class="car_list_img"
+                src="/Images/cars_slider/car-home-1.png"
+                alt=""
+              />
+              <p class="car_type">Standard SUV</p>
+              <p class="car_type_info">
+                A standard SUV offers flexibility, seating capacity and power
+                for cruising around town or your next adventure.
+              </p>
+            </li>
+            <li class="car_list_block">
+              <img
+                class="car_list_img_main"
+                src="/Images/cars_slider/car-home-2.png"
+                alt=""
+              />
+              <p class="car_type">Types of vehicles</p>
+              <p class="car_type_info">
+                Car rental agencies primarily serve people who require a
+                temporary vehicle
+              </p>
+            </li>
+            <li class="car_list_block">
+              <img
+                class="car_list_img"
+                src="/Images/cars_slider/car-home-3.png"
+                alt=""
+              />
+              <p class="car_type">Car hire</p>
+              <p class="car_type_info">
+                Alongside the basic rental of a vehicle, car rental agencies
+                typically also offer extra products such as insurance
+              </p>
+            </li>
+          </ul>
+          <p class="viwe_all_cars">View all available vehicles</p>
+          <div class="cars_slider_arrows">
+            <div class="arrow_left"></div>
+            <div class="arrow_right"></div>
+          </div>
+          <img
+            class="cars_slider_img"
+            src="/Images/cars_slider/car.png"
+            alt=""
+          />
+        </div>
+        <svg
+          class="cars_slider_wave"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+          width="100%"
+          viewBox="0 0 1600 406"
+        >
+          <path
+            style="fill: #ffca08"
+            d="M1608.03,417H-1.709L-3.493,267.327c76.974,52.083,173.369,106.4,262.948,114.816,82.7,7.772,175.138-15.857,175.138-15.857,296.27-61.5,450.55-323.851,772.167-357.194,146.02-12.5,299.07,11.613,401.05,33.813Z"
+          ></path>
+          <path
+            style="fill: #ffca08"
+            d="M-2.25,405.5H1607.5l1-248.5S1498.97,67.09,1199,82.5C952.453,84.455,717.723,320.6,424,369c0,0-91,17-172,11-87.435-6.475-177.172-39.147-255.516-77.726Z"
+          ></path>
+          <path
+            style="fill: #1c1601"
+            d="M-5.143,340.337C87.619,364.359,200.042,380.486,309,381c298.183,1.4,631.464-245.093,878-242,244.99,3.074,420.5,129,420.5,129V410H-4.75Z"
+          ></path>
+        </svg>
+      </section>
+      <section class="stats">
+        <div class="container">
+          <p class="stats_overline">Find your car in one of our</p>
+          <p class="stats_title">
+            Find the perfect rental car we compare car rental prices,
+            <span class="accent_stats_title">you save!</span>
+          </p>
+          <ul class="stats_list">
+            <li class="stats_block">
+              <p class="stat_number">145</p>
+              <p class="stat_desc">Countries</p>
+            </li>
+            <li class="stats_block">
+              <p class="stat_number">10K</p>
+              <p class="stat_desc">Locations</p>
+            </li>
+            <li class="stats_block">
+              <p class="stat_number">27+</p>
+              <p class="stat_desc">Partners</p>
+            </li>
+            <li class="stats_block">
+              <p class="stat_number">38+</p>
+              <p class="stat_desc">Languages</p>
+            </li>
+          </ul>
+          <img class="stats_car" src="/Images/Stats/car.png" alt="" />
+        </div>
+        <svg
+          class="stats_wave"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+          width="100%"
+          viewBox="0 0 1600 406"
+        >
+          <g transform="scale(-1 -1) translate(-1600 -406)">
+            <path
+              style="fill: #ffca08"
+              d="M1608.03,417H-1.709L-3.493,267.327c76.974,52.083,173.369,106.4,262.948,114.816,82.7,7.772,175.138-15.857,175.138-15.857,296.27-61.5,450.55-323.851,772.167-357.194,146.02-12.5,299.07,11.613,401.05,33.813Z"
+            ></path>
+            <path
+              style="fill: #ffca08"
+              d="M-2.25,405.5H1607.5l1-248.5S1498.97,67.09,1199,82.5C952.453,84.455,717.723,320.6,424,369c0,0-91,17-172,11-87.435-6.475-177.172-39.147-255.516-77.726Z"
+            ></path>
+            <path
+              style="fill: #1c1601"
+              d="M-5.143,340.337C87.619,364.359,200.042,380.486,309,381c298.183,1.4,631.464-245.093,878-242,244.99,3.074,420.5,129,420.5,129V410H-4.75Z"
+            ></path>
+          </g>
+        </svg>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <div class="review_block">
+            <div class="review_heading">
+              <p class="good_testimonials">Our good testimonials</p>
+              <p class="review_title">
+                See what said our happy
+                <span class="accent_review_heading">customers</span>
+              </p>
+            </div>
+            <div class="review_card">
+              <p class="review_text">
+                "There are two types of people who will tell you that you cannot
+                make a difference in this world: those who are afraid to try and
+                those who are afraid you will succeed."
+              </p>
+              <div>
+                <img src="/Images/reviews/face.jpg" alt="" width="80px" />
+                <p><b>Mike Jordan</b> <br /><span>Teacher</span></p>
               </div>
             </div>
           </div>

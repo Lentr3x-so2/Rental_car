@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "czicons";
+  src: url(/font/czicons.woff2) format("woff2");
+}
+.cars_slider {
+  width: 100%;
+}
+.cars_slider_overline {
+  width: fit-content;
+  background-color: var(--second_bg_color);
+  color: var(--second_text_color);
+  padding: 10px 30px;
+  margin: 0 auto;
+  border-radius: 50px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+}
+.cars_slider_title {
+  text-align: center;
+  width: 712px;
+  font-size: 46px;
+  font-style: italic;
+  margin: 0 auto;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.accent_cars_slider_title {
+  color: var(--main_color);
+  border-bottom: 4px solid;
+}
+
+.car_list {
+  display: flex;
+}
+.car_list_block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.car_list_block_main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -1360px;
+}
+.car_list_img {
+  margin: 0 74px;
+  opacity: 0.5;
+}
+.car_list_img_main {
+  margin: 0 74px;
+}
+.car_type {
+  font-size: 76px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.car_type_info {
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  width: 450px;
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
+.viwe_all_cars {
+  width: fit-content;
+  color: var(--text_color);
+  background-color: var(--main_color);
+  font-size: 18px;
+  padding: 22px 35px;
+  border-radius: 90px;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.cars_slider_arrows {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 700px;
+  bottom: 140px;
+  left: 340px;
+}
+.arrow_left::before {
+  content: "\e8bd";
+  font-family: "czicons";
+  font-weight: 400;
+  font-size: 32px;
+  color: #cecece;
+}
+.arrow_right::before {
+  content: "\e8bc";
+  font-family: "czicons";
+  font-weight: 400;
+  font-size: 32px;
+  color: #cecece;
+}
+.cars_slider_wave {
+  height: 200px;
+  display: block;
+}
+.cars_slider_img {
+  position: absolute;
+  z-index: 10;
+  width: 650px;
+  height: 326px;
+  bottom: -450px;
+}

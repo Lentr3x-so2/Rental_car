@@ -3,6 +3,9 @@
 @import "hero.css";
 @import "why_us.css";
 @import "offer.css";
+@import "cars_slider.css";
+@import "stats.css";
+@import "reviews.css";
 
 * {
   box-sizing: border-box;

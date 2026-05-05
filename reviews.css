@@ -1,0 +1,59 @@
+.reviews {
+  margin-top: 350px;
+  width: 100%;
+}
+.review_block {
+  display: flex;
+  justify-content: space-between;
+}
+.review_heading {
+  width: 680px;
+  padding: 10px;
+}
+.good_testimonials {
+  color: var(--second_text_color);
+  background-color: var(--second_bg_color);
+  font-size: 24px;
+  font-style: italic;
+  padding: 10px 40px;
+  border-radius: 50px;
+  width: fit-content;
+}
+.review_title {
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  width: 380px;
+}
+.accent_review_heading {
+  color: var(--main_color);
+  border-bottom: 4px solid;
+}
+.review_card {
+  position: relative;
+  background-color: var(--main_bg_color);
+  width: 630px;
+  background-image: url("https://xtratheme.com/car-rental/wp-content/uploads/sites/137/2021/12/test-back.png");
+  background-repeat: no-repeat;
+  padding: 50px 120px;
+}
+.review_text {
+  color: var(--base_color);
+  font-size: 18px;
+  text-align: center;
+  line-height: 2;
+}
+.review_card div {
+  display: flex;
+  align-items: end;
+  position: absolute;
+  bottom: -60px;
+  left: 70px;
+}
+.review_card img {
+  border-radius: 100px;
+}
+.review_card span {
+  color: #707070;
+}
